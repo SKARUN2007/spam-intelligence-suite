@@ -1,0 +1,23 @@
+# Node
+node_modules/
+.next/
+dist/
+.env*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Data & DB (Persistent)
+data/*.db
+data/reports/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
